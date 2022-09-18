@@ -8,6 +8,8 @@
 import UIKit
 
 class ChampionsCollectionViewCell: UICollectionViewCell {
+    
+    //MARK: - UI Elements
     @IBOutlet weak var champImage: UIImageView!
     @IBOutlet weak var champTitle: UILabel!
     
