@@ -6,25 +6,27 @@
 //
 
 import UIKit
+import WebKit
 
 class LolWebViewController: UIViewController {
+    //MARK: - UI Elements
     @IBOutlet weak var webView: WKWebView!
     
+    //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        toWeb()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //MARK: - Functions
+    //go to website
+    func toWeb(){
+        
+        if let url = URL.init(string: "https://www.leagueoflegends.com/tr-tr/champions/"){
+            let urlReq = URLRequest(url: url)
+            webView.load(urlReq)
+        }
     }
-    */
 
 }
