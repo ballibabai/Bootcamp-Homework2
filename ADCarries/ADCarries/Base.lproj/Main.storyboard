@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--AD Carries-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ADCarries" customModuleProvider="target" sceneMemberID="viewController">
@@ -72,7 +72,7 @@
                             <constraint firstItem="iCJ-rn-Wse" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pSI-M0-R7b"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Usu-sG-pbP"/>
+                    <navigationItem key="navigationItem" title="AD Carries" id="Usu-sG-pbP"/>
                     <connections>
                         <outlet property="collectionView" destination="iCJ-rn-Wse" id="pEA-LM-wJn"/>
                     </connections>
